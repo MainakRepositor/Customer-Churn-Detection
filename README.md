@@ -1,14 +1,16 @@
-# Breast Cancer Detection
+# Customer Churn Prediction
 
-![home](https://user-images.githubusercontent.com/64016811/218371012-5f116303-8625-4a07-9719-cf04b9fdcbd7.png)
+![home](https://user-images.githubusercontent.com/64016811/218825466-53b85d57-1fd4-44e4-99bf-36fdfe8d6e52.png)
+
 
 ### Problem : 
+What is churn prediction?
 
-Substantial support for breast cancer awareness and research funding has helped create advances in the diagnosis and treatment of breast cancer. Breast cancer survival rates have increased, and the number of deaths associated with this disease is steadily declining, largely due to factors such as earlier detection, a new personalized approach to treatment and a better understanding of the disease.
+Churn prediction is predicting which customers are at high risk of leaving your company or canceling a subscription to a service, based on their behavior with your product.
 
 ### Solution:
 
-This Web app will help you to detect whether a person has Breast Cancer by analysing the values of several features using the Decision Tree Classifier.
+This Web app will help you to detect whether a person will turn out to be loyal or not by analysing the values of several features using the Artificial Neural Networks and Decision Tree.
 
 ### Idea: 
 Building an application that can predict the occurrence of a cardiac arrest or the possible causes of it by indicating the highly relevant factors. 
