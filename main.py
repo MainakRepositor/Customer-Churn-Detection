@@ -12,6 +12,7 @@ from Tabs import home, data, predict, visualise
 # Configure the app
 st.set_page_config(
     page_title = 'Customer Churn Detection',
+    page_icon = 'random',
     layout = 'wide',
     initial_sidebar_state = 'auto'
 )
@@ -19,10 +20,10 @@ st.set_page_config(
 # Dictionary for pages
 Tabs = {
     "Home": home,
-    "Data": data,
+    "Data Info": data,
     "Prediction": predict,
     "Visualisation": visualise
-    
+   
 }
 
 # Create a sidebar
@@ -41,4 +42,4 @@ if page in ["Prediction", "Visualisation"]:
 elif (page == "Data Info"):
     Tabs[page].app(df)
 else:
-    Tabs[page]
+    Tabs[page].app()
