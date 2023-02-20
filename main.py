@@ -41,4 +41,4 @@ if page in ["Prediction", "Visualisation"]:
 elif (page == "Data Info"):
     Tabs[page].app(df)
 else:
-    Tabs[page].app(df)
+    Tabs[page].app()
