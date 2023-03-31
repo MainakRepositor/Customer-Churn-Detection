@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier
 import streamlit as st
 
 
-@st.cache_data()
+@st.cache()
 def load_data():
     """This function returns the preprocessed data"""
 
@@ -21,7 +21,7 @@ def load_data():
 
     return df, X, y
 
-@st.cache_data()
+@st.cache()
 def train_model(X, y):
     """This function trains the model and return the model and model score"""
     # Create the model
