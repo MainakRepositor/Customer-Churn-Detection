@@ -66,7 +66,7 @@ def app(df, X, y):
         if (prediction == 1):
             st.success("The person will be loyal to the system")
         else:
-            st.error("The person will have a negative churn outcome")
+            st.error("The person will have a negative churn outcome.")
 
         # Print teh score of the model 
-        st.write("The model used is trusted by analysts and has an accuracy of ", round((score*100)),"%")
+        st.sidebar.write("The model used is trusted by analysts and has an accuracy of ", round((score*100)),"%")
